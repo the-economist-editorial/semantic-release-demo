@@ -13,6 +13,7 @@
     "semantic-release": "^4.3.5"
   },
   "scripts": {
+    "test": "echo Everything is fine :D",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   }
 }
