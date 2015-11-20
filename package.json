@@ -1,0 +1,12 @@
+{
+  "name": "@economist/semantic-release-demo",
+  "version": "1.2.3",
+  "description": "THIS IS A TEST, DO NOT USE!",
+  "author": "The Economist (http://economist.com)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/economist-components/semantic-release-demo.git"
+  },
+  "main": "index.js"
+}
