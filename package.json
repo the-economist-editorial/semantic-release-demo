@@ -8,5 +8,11 @@
     "type": "git",
     "url": "git+ssh://git@github.com/economist-components/semantic-release-demo.git"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "devDependencies": {
+    "semantic-release": "^4.3.5"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  }
 }
