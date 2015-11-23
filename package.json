@@ -21,7 +21,7 @@
   },
   "scripts": {
     "check-commit": "validate-commit-msg",
-    "test": "echo Everything is fine :)",
+    "test": "echo Everything is fine",
     "build": "echo Building...built",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   }
