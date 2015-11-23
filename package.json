@@ -8,11 +8,19 @@
     "type": "git",
     "url": "git+ssh://git@github.com/economist-components/semantic-release-demo.git"
   },
+  "config": {
+    "ghooks": {
+      "commit-msg": "npm run check-commit"
+    }
+  },
   "main": "index.js",
   "devDependencies": {
-    "semantic-release": "^4.3.5"
+    "ghooks": "^1.0.1",
+    "semantic-release": "^4.3.5",
+    "validate-commit-msg": "^1.0.0"
   },
   "scripts": {
+    "check-commit": "validate-commit-msg",
     "test": "echo Everything is fine :D",
     "build": "echo Building...built",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
